@@ -1,17 +1,17 @@
 .bigger {
-	font-size: 300%;
-	border: 2px solid black;
+	font-size: 500%;
 	display:block;
-	position:fixed;
 }
 
 #left {
 	float:left;
 	
 }
-
+#fixed {
+	position:fixed;
+}
 #right {
-	float:right;
+	position:relative;
 	
 }
 
