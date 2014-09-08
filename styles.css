@@ -68,3 +68,18 @@ footer a{
 #wrapper {
 	background-color: #C1C2FF;
 }
+
+.fixed {
+	position: fixed;
+	top:5px;
+}
+
+.relative {
+	position: relative;
+	left: 100px;
+}
+
+.absolute{
+	position:absolute;
+	left: 25px;
+}

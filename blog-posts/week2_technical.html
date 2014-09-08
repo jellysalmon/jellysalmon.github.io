@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+  <title>Title</title>
+  <link type="text/css" rel="stylesheet" href="../styles.css"/> 
+  <link href='http://fonts.googleapis.com/css?family=Cutive+Mono|Oxygen+Mono' rel='stylesheet' type='text/css'> 
+</head>
+<body>
+  <div id="wrapper">
+    <header>
+      <h1 class="lighttext fixed">Joey's Website</h1>
+    </header>
+    <nav>
+      <a class="darktext" href="bloglist.html"> Blog Posts</a> 
+      <a class="darktext" href="../index.html"> About Me</a> 
+      <a class="darktext" href="www.google.com"> Projects</a> 
+      <a class="darktext" href="http://www.finalfashionista.com">Wordpress</a> 
+    </nav>
+    <section id="content">      
+      <h3 class="darktext">Positioning in CSS</h3>
+      <article> 
+        <h4>static</h4> 
+          <p> static positioning is the default value when no other position is set. It basically is a status of "no positioning." To make an element that has positioning to be static, you can use <i>"position: static;"</i> </p>
+        </article>
+      <article> 
+        <h4>relative</h4>
+        <p> <b>relative positioning by itself does nothing, but when you add more property:value; pairs to it you can move that element around the webpage, ignoring any other elements that may get in it's way. The four properties to adjust an element's position are <i>top</i>, <i>right</i>, <i>bottom</i>, <i>left</i>. For example, if you wanted to move an element left on the page, you could add </i>position:relative;</i> and <i>left:20px;</i>. Elements move relative to its original position. So left:20px will add 20 pixels to the left of the element, in essence moving the element 20 pixels left from it's original position.
+      </article>
+      <article> 
+        <h4>fixed</h4> 
+          <p> Fixed positioning looks really crazy when you see it. The element stays on the page in the same area no matter how far down you scroll. They also don't take up any space, it's almost as if the elemnt is floating in front of the web page. To use, simply use <i>position:fixed;</i> along with any combination of top, bottom, right, left to position the element on the page. I applied fixed positioning to the header on this page so you can see what happens when you scroll down. As you can see, it also leaves no gap so it covers up some of the navigation bar. You may need to shrink your browser to scroll down.
+      </article>
+      <article> 
+        <h4>absolute</h4>
+          <p> Absolute positioning is a bit tricky, it works by positioning the element relative to the nearest positioned element.  By itself, an absoulte element would function similar to fixed except it moves when you scroll the page. It will position itself relative to the document's body, instead of it's original position. So <i>left:20px;, top:50px</i>; will add it 20 pixels to the left and 50 to the top, in essence moving it to the left and bottom, but starting at the edges of the document instead of their original position. For example, I placed absolute positioning with left:25px for the mail icon below, so it moves 25 pixels from the left of the page. As you can see, the opportunistic Twitter Icon has seen the empty space created moved to the left to fill in the empty space it has no positioning on it and is static. I used relative positioning to move the steam icon 100 pixels left with position:relative; and <i>left:100px;</i> and you can see the 100 pixel gap it created inbetween it and the twitter icon bar.
+      </article>
+      <p>For an example of what these elements look like without positioning you can look one of the other <a href="bloglist.html"> blog posts</a>. 
+    </section>
+<br>
+<br>
+<br>
+<br>
+<br>
+    <footer>
+      <a class="lighttext absolute" href="mailto:joey.samaniego@gmail.com"><img src="../images/gmail-icon.png"/> </a> 
+      <a class="lighttext" href="http://www.twitter.com/jellysalmon"> <img src="../images/twitter-icon.png"> </a> 
+      <a class="lighttext relative" href="http://steamcommunity.com/id/jellysalmon/"><img src="../images/Steam_Icon.png"/></a> 
+    </footer>
+  </div>   
+</body>
+</html>
