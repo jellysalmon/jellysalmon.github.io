@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+  <title>Title</title>
+  <link type="text/css" rel="stylesheet" href="../styles.css"/> 
+  <link href='http://fonts.googleapis.com/css?family=Cutive+Mono|Oxygen+Mono' rel='stylesheet' type='text/css'> 
+</head>
+<body>
+  <div id="wrapper">
+    <header>
+      <h1 class="lighttext">Joey's Website</h1>
+    </header>
+    <nav>
+      <a class="darktext" href="bloglist.html"> Blog Posts</a> 
+      <a class="darktext" href="../index.html"> About Me</a> 
+      <a class="darktext" href="www.google.com"> Projects</a> 
+      <a class="darktext" href="http://www.finalfashionista.com">Wordpress</a> 
+    </nav>
+    <section id="content">
+      <article>
+        <h2 class="darktext"> Classes in Ruby</h1>
+        <p class="darktext">One of the cool things I learned about Ruby is that just like methods, you can create your own classes. It's a bit hard to wrap your head around, but one way to look at it is with real objects. In the real world, most transportation that we use has similar functions, but widely different characteristics. We can think of all transportation falling under the class of vehicle.</p>
+        <p class ="darktext"> If we were to make a class in Ruby it would be as simple as writing "Class Vehicle end." But we can include different characteristics within that class to help differentiate between all the different vehicle types. Things like number of <strong>wheels</strong> or <b>horsepower</b> or <b>seating capacity</b>.</p>
+        <p class ="darktext"> Many classes start off with the method <i>initialize</i> followed by the characteristics of that class. Using the example above, you might see a Vehicle class set up like this:</p>
+        <img class="relative" src="../images/initialize.png"/>
+        <p class ="darktext"> The @ symbols are making local variables that can be used as a reference later in the program. Let's focus on how now that the class is set up to take information in, it still does nothing. You must create a new object of that class by doing the following:</p>
+        <img class="relative" src ="../images/newvehicle.png"/>
+        <p class ="darktext">In the picture above, I created two new objects in the Vehicle class and gave them characteristics of wheels, horsepower and seating capacity. While the Vehicle class still doesn't serve much purpose, when combined with other methods, it is possible to do all sorts of things to the data supplied, such as organizing it by highest horsepower, calculating how many vehicles would be needed to transport x amount of people and so forth. </p>
+      </article>
+    </section>
+    <footer >
+      <a class="lighttext" href="mailto:joey.samaniego@gmail.com"><img src="../images/gmail-icon.png"/> </a> 
+      <a class="lighttext" href="http://www.twitter.com/jellysalmon"> <img src="../images/twitter-icon.png"> </a> 
+      <a class="lighttext" href="http://steamcommunity.com/id/jellysalmon/"><img src="../images/Steam_Icon.png"/></a> 
+    </footer>
+  </div>   
+</body>
+</html>
