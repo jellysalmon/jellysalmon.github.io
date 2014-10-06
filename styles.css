@@ -7,6 +7,14 @@ h1 {
 	margin:0px;
 	
 }
+
+h2 {
+	border: 2px double #1A194C;
+	font-family: 'Oxygen Mono', fantasy;
+	margin:0px;
+	margin-left:auto;
+	margin-right:auto;
+}
 nav {
 	background-color: #b2b1e0;
 }
