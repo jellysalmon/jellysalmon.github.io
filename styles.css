@@ -50,6 +50,10 @@ article p{
 	margin-left:auto;
 	margin-right:auto; 
 }
+footer img:hover {
+	width: 20%;
+	transition-duration: .5s
+}
 
 p {
 	margin-bottom: 0px;
