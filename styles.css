@@ -1,6 +1,11 @@
 @charset "utf-8";
 /* CSS Document */
 
+body {
+	background-color: #CEE3F8;
+}
+
+
 h1 {
 	border: 2px double #1A194C;
 	font-family: 'Oxygen Mono', fantasy;
@@ -68,20 +73,21 @@ footer a{
 	display: inline-block;
 	font-family: 'Cutive Mono', monospace;
 	text-decoration:none;
+	background-color: #CEE3F8
 	
 }
 
 .lighttext {
-	background-color: #3C447F;
+	background-color: #CEE3F8;
 	color: #C1C2FF;
 }
 .darktext {
 	color:#3C447F;
-	background-color: #b2b1e0;
+	background-color: #CEE3F8;
 }
 
 #wrapper {
-	background-color: #C1C2FF;
+	background-color: #CEE3F8;
 }
 
 .fixed {
